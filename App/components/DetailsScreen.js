@@ -20,7 +20,7 @@ class DetailsScreen extends React.Component {
 		 <TextInput underlineColorAndroid={'transparent'}
 			style={styles.searchInput}
 		placeholder='To'/>
-		      <View style={[styles.bt_box]}>
+		      <View >
 		       <TouchableOpacity style={[styles.bt_menu,styles.bt_top]}>
 			   <Image source={require('../images/ico_menu1.jpg')} style={styles.ico_pos}/>
 			   <Text style={styles.bt_txt}>เลือกบนแผนที่</Text>
@@ -85,9 +85,7 @@ bt_top:{
 	
 	
 },
-bt_box:{
-	
-},
+
 ico_pos:{
 	position:'absolute',
 	left:10,
@@ -102,8 +100,6 @@ bt_menu:{
 	borderBottomWidth:2,
 	borderBottomColor:'#f6f6f6',
 	backgroundColor: '#ffffff',
-	
-   
 },
 bt_txt:{ 
 	paddingTop:15,

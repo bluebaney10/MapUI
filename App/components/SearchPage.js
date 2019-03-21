@@ -6,6 +6,7 @@ import {
   View,
   Button,
   ActivityIndicator,
+  Image,
   
 } from 'react-native';
 
@@ -29,6 +30,7 @@ class SearchPage extends Component{
 	  
 	  return (
 	   <View style={styles.searchInput} >
+	    <Image source={require('../images/icon_search.jpg')} style={styles.icon_pos}/>
 	   <Text style={styles.searchText}>Where to go?</Text>
 	   </View>
 	   )
@@ -71,7 +73,14 @@ searchInput: {
   backgroundColor:'#ffffff',
   width:'100%',
  },
+ icon_pos:{
+	position: 'absolute',
+	top:6,
+	left:5,
+	
+ },
  searchText:{
 	 color: '#d3d3d3',
+	 paddingLeft:30
  },
 })

@@ -15,8 +15,8 @@ class UIControl extends Component{
 	render() {
 	return (
     <View style={styles.uicontrol_box}>
-      <Image source={require('../images/icon1.jpg')} style={styles.image}/>
-      <Image source={require('../images/icon2.jpg')} style={styles.image}/>
+      <Image source={require('../images/icon1_on.jpg')} style={styles.image}/>
+      <Image source={require('../images/icon2_on.jpg')} style={styles.image}/>
    </View>
     )
   }
